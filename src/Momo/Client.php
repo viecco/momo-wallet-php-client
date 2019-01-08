@@ -62,7 +62,7 @@ class Client {
     }
 
     $encryptedContent = $response->getBody();
-    $textContent = $this->_cryptoService->decrypt($encryptedContent);
+    $textContent = $this->_cryptoService->decryptAndVerify($encryptedContent);
     $data = json_decode($textContent, true);
     return $data;
   }

@@ -44,4 +44,9 @@ class CryptGPG implements CryptoInterface {
     return $result;
   }
 
+  public function decryptVerify($text) {
+    $result = $this->_gpg->decryptAndVerify($text);
+    return $result;
+  }
+
 }
