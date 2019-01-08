@@ -2,6 +2,7 @@
     "name": "viecco/momo-wallet-php-client",
     "description": "SDK for interaction with MoMo eWallet",
     "require": {
+      "pear/crypt_gpg": "^1.6",
       "guzzlehttp/guzzle": "^6.3"
     },
     "require-dev": {
