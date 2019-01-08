@@ -1,5 +1,5 @@
 {
-    "name": "momo/wallet-client",
+    "name": "viecco/momo-wallet-php-client",
     "description": "SDK for interaction with MoMo eWallet",
     "require": {
       "guzzlehttp/guzzle": "^6.3"
